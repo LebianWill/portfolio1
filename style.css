@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+::placeholder {
+  color: #7296b3;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  border: 1px solid black;
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 2% 10%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu > li {
+  margin: 0 40px;
+}
+.red-circle {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -7px;
+}
+.pricing {
+  position: relative;
+}
+.hero {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  padding: 50px 0px 0px 0px;
+}
+
+.left {
+  /* background-color: red; */
+  width: 50%;
+  height: 100%;
+  padding: 3% 0 2% 0;
+}
+.heart {
+  width: 30px;
+  height: 30px;
+  background-color: #fd7090;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart > i {
+  color: white;
+  font-size: 15px;
+}
+.com > p {
+  margin-top: 10px;
+  text-align: left;
+  color: #d38595;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.intro {
+  margin-top: 30px;
+  position: relative;
+}
+.intro > h1 {
+  font-size: 5.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+}
+.gradient {
+  background: linear-gradient(
+    243deg,
+    rgba(223, 131, 26, 1) 0%,
+    rgba(231, 163, 42, 1) 50%,
+    rgba(238, 177, 76, 1) 100%
+  );
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: -17px;
+  right: 43px;
+  z-index: -99;
+}
+.intro > p {
+  color: #acacac;
+}
+
+.hire-me {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.hire-me > button {
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: #0049ff;
+  border: none;
+}
+.fa-play {
+  font-size: 30px;
+  margin-left: 50px;
+  color: #0049ff;
+  border-radius: 0px;
+}
+.social-networks {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.social-networks > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-networks > div > i {
+  font-size: 20px;
+  color: red;
+}
+.bottom-arrow {
+  margin-top: 50px;
+}
+.bottom-arrow > i {
+  font-size: 2em;
+}
+.right {
+  /* background-color: blue; */
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+}
+input {
+  border: none;
+  outline: none;
+  width: 100px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.box-shadow {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 19px -8px #adadad;
+  border-radius: 7px;
+}
+.search-el {
+  position: absolute;
+  right: -70px;
+  top: 0;
+}
+.search-el > i {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.ui-designer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -70px;
+  top: 160px;
+  background-color: white;
+}
+.ui-designer > .g-circle {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background: linear-gradient(
+    243deg,
+    rgba(223, 131, 26, 1) 0%,
+    rgba(231, 163, 42, 1) 50%,
+    rgba(238, 177, 76, 1) 100%
+  );
+}
+.card-project {
+  width: 300px;
+  height: 150px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px 30px;
+  position: relative;
+  border-radius: 20px;
+  position: absolute;
+  left: 20px;
+  z-index: 10;
+  background-color: white;
+}
+.heart-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart-element > p {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(100, 100, 100);
+}
+.card-title > p {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+.card-pourcentage {
+  font-weight: bold;
+  font-size: 1em;
+}
+.card-pourcentage > p > span {
+  color: green;
+  font-weight: bold;
+}
+.card-project > .triangle > i {
+  color: black;
+  font-size: 3em;
+  position: absolute;
+  left: 50px;
+  bottom: -20px;
+  transform: rotate(10deg);
+}
+.card-profile {
+  width: 220px;
+  height: 240px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 100px;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.card-profile > .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  /* border: 1px solid red; */
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+.icons > div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+  background-color: white;
+}
+.fa-comment {
+  color: #b7b3f9;
+}
+.fa-phone {
+  color: #9fdaa1;
+}
+.circle-image > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.my-name > h2 {
+  font-size: 15px;
+}
+.my-name > p {
+  font-size: 12px;
+}
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.followers {
+  margin-right: 10px;
+}
+.followers,
+.following {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+.followers > p:first-child,
+.following > p:first-child {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: lightgrey;
+  font-weight: bold;
+}
+.followers > p:last-child,
+.following > p:last-child {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.profile {
+  position: absolute;
+  top: 10%;
+  right: -10px;
+  scale: 1.5;
+}
+.shape {
+  position: absolute;
+  top: 52%;
+  left: 30%;
+  scale: 2;
+  z-index: -99;
+}
